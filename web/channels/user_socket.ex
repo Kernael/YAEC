@@ -2,7 +2,7 @@ defmodule Yaec.UserSocket do
   use Phoenix.Socket
 
   ## Channels
-  # channel "rooms:*", Yaec.RoomChannel
+  channel "rooms:*", Yaec.RoomChannel
 
   ## Transports
   transport :websocket, Phoenix.Transports.WebSocket
